@@ -13,12 +13,12 @@
      Jika login gagal (kode bukan 200) atau terjadi error saat memproses permintaan, dialog peringatan ditampilkan.
      Dialog peringatan yang muncul memberikan pesan "Login gagal, silahkan coba lagi". Popup ini ditangani dengan menggunakan widget WarningDialog.
 3. Proses Tambah Produk
-   a. ![Lampiran](screenshot/tambahproduk.png)
+   a. ![Lampiran](screenshot/produkpage.png)
       - Pengguna mengisi formulir di ProdukForm untuk menambahkan produk baru.
       - Saat tombol "SIMPAN" ditekan, fungsi simpan() dipanggil.
       - Data produk diambil dari kontroler dan objek Produk baru dibuat.
       - Data kemudian dikirim menggunakan ProdukBloc.addProduk().
-   b. ![Lampiran](screenshot/produkpage.png)
+   b. ![Lampiran](screenshot/tambahproduk.png)
       - Jika penyimpanan berhasil, pengguna diarahkan ke halaman ProdukPage.
       - Jika gagal, dialog peringatan ditampilkan dengan pesan: "Simpan gagal, silahkan coba lagi".
 4. Proses Edit Produk
